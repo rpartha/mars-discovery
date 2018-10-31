@@ -1,1 +1,1 @@
-# mars-discovery-challenge
+# Mars Discovery Challenge [NYC]

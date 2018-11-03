@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Mars</title>
+
+        <!-- styling -->
+        <link rel="stylesheet" href="grid.css" type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type='text/css'>
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous">
+        </script>
+
+        <!-- JavaScript -->
+        <script type = "text/javascript" src = "grid.js"></script>
+        <script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+        
+    </head>
+
+    <body>
+        <div class="app-wrapper">
+            <div class="app-container">
+            
+              <!-- Legend -->
+              <div> 
+                    <span> Legend: </span>
+
+                    <div class="legend blue"> </div>
+                    <span> Mining Node </span>
+        
+                    <div class="legend red" > </div>
+                    <span> Bot </span>
+        
+                    <div class="legend purple" > </div>
+                    <span> Bot and Node on the Same Square </span>
+        
+                    <div class="legend white" style={{borderColor: 'black', borderWidth: '1px', border: '1px solid'}}> </div>
+                    <span> Empty </span>
+              </div>
+              
+              <!-- Grid for displaying cells -->
+              <div class="grid"></div>
+            </div>
+          </div>
+      
+          <!-- Cell template. We'll use this for displaying each individual grid cell. -->
+          <template><div class="cell"></div></template>
+    </body>
+</html>

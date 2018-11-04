@@ -11,4 +11,6 @@ If I wanted to make this project better I could've done the following:
     - Keep track of all the bots and their scores visually
     - Distinguish nodes better
 
-I enjoyed this challenge and took it as a learning experience.
+I enjoyed this challenge and took it as a learning experience. 
+
+URL: http://pacific-forest-30735.herokuapp.com/index.html
